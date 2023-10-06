@@ -38,8 +38,9 @@ async function reducer(state = 0, action) {
     case ADD:
       return state + 1;
     case FETCH: {
-      let json = await fetch('http://localhost:3000/pesto-content-type', { mode: 'no-cors'})
-      return json
+      let res = await fetch('http://localhost:3000/pesto-content-type', { mode: 'no-cors'})
+      console.log(res)
+      return res.json
     }
     default:
       return state;
