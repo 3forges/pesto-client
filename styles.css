@@ -1,0 +1,40 @@
+.app {
+  height: 100vh;
+}
+.navigation {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: gray;
+}
+.page-content {
+  display: flex;
+  flex: 1;
+  margin-top: 20px;
+  justify-content: center;
+  text-align: center;
+}
+.container {
+  margin-top: 20px;
+  min-height: 20px;
+  padding: 10px;
+  border: 1px solid gray;
+  background-color: lightgray;
+}
+.to-do-item {
+  background-color: white;
+  cursor: pointer;
+}
+.to-do-item:hover {
+  background-color: darkgray;
+}
+.accounting {
+  display: flex;
+  margin: 20px;
+  padding: 5px;
+  background-color: burlywood;
+}
+.accounting div {
+  margin: 20px;
+}
